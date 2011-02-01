@@ -1,0 +1,84 @@
+<document xmlns="http://maven.apache.org/XDOC/2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+
+  <properties>
+    <title>JCalendarButton</title>
+    <author email="don@donandann.com">Don Corley</author>
+  </properties>
+
+  <!-- Optional HEAD element, which is copied as is into the XHTML <head> element -->
+  <!-- head>
+    <meta content=""/>
+  </head -->
+
+  <body>
+
+     <section name="Description">
+
+  <p>JCalendarButton is a simple java swing component that displays
+a popup calendar next to a date input field.</p>
+
+<p>
+Here is a sample of what the buttons look like. To try this demo for yourself, <a href="http://www.donandann.com/bio">click here</a>.
+Try pressing the language buttons at the bottom of the applet to see the buttons change automatically for different countries. 
+<br></br><img src="images/bio.png" alt="Biorhythm screen"/>
+<br/>Note: The source code for this cool sample application is in the <a href="source-repository.html">source repository</a> for this project.
+</p>
+<p>
+If you are looking for an actual calendar component, try the <a href="../calendarpanel">Calendar Panel</a>.
+The demo on the first page also shows several JCalendarButtons in use.
+</p>
+
+    </section>
+      <section name="Developers Notes">
+<p>
+ <a href="quickstart.html">Developers: Quick start instructions.</a></p>
+
+<p><a href="netbeans.html">Developers: Instruction on adding JCalendarButton to your visual screen building tool such as netbeans. Also some sample code.</a></p>
+
+
+      <subsection name="Maven Integration">
+<p>
+To include JCalendarButton in your <a href="http://maven.apache.org/">Maven</a> projects, just add the following dependency to your Maven project:
+</p>
+<p>
+<code>
+&lt;dependency&gt;<br/>
+&#160;&#160;    	&lt;groupId&gt;${project.groupId}&lt;/groupId&gt;<br/>
+&#160;&#160;    	&lt;artifactId&gt;${project.artifactId}&lt;/artifactId&gt;<br/>
+&#160;&#160;    	&lt;version&gt;${project.version}&lt;/version&gt;<br/>
+    &lt;/dependency&gt;<br/>
+</code>
+</p>
+
+      </subsection>
+      <subsection name="OSGi packaging">
+<p>
+JCalendarButton is already configured as an <a href="http://www.osgi.org">OSGi</a> bundle.
+To use it in your OSGi project, just include JCalendarButton in the
+manifest of the bundles that will be using JCalendarButton.
+Remember to install the JCalendarButton jar in your OSGi environment.
+</p>
+<p>
+<code>
+OBR Repository index:<br/>
+${project.organization.url}/${OBRRepositoryIndex}<br/>
+Manifest import:<br/>
+Import-Package: ${project.groupId};resolution:=optional;version=${project.version}
+</code>
+</p>
+
+<p>
+<a href="http://www.sourceforge.net/projects/jcalendarbutton" >
+To download this project, go to our project page at:
+<br/>
+<img src="http://sourceforge.net/sflogo.php?group_id=239200&amp;type=3" width="88" height="31" alt="SourceForge" align="bottom" /></a>
+</p>
+      </subsection>
+
+    </section>
+
+  </body>
+
+</document>

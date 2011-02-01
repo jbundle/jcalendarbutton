@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jbundle.config</groupId>
+    <artifactId>jbundle-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../../jbundle-parent</relativePath>
+  </parent>
+
+  <groupId>org.jbundle.util.jcalendarbutton</groupId>
+  <artifactId>org.jbundle.util.jcalendarbutton</artifactId>
+  <version>1.5.3-SNAPSHOT</version>
+
+  <packaging>bundle</packaging>
+
+  <name>JCalendarButton - Date and Time Popup Buttons</name>
+  <description>JCalendarButton is a simple java swing component that displays a popup calendar next to a date input field.</description>
+
+  <scm>
+    <!-- url>http://jcalendarbutton.hg.sourceforge.net:8000/hgroot/jbundle-jcalendarbutton</url>
+    <connection>scm:hg:http://jcalendarbutton.hg.sourceforge.net:8000/hgroot/jcalendarbutton/jbundle-jcalendarbutton</connection>
+    <developerConnection>scm:hg:ssh://doncorley@jcalendarbutton.hg.sourceforge.net/hgroot/jcalendarbutton/jbundle-jcalendarbutton</developerConnection -->
+    <url>http://scm.jbundle.org/gitweb/scm/git/workspace/jbundle/util/jcalendarbutton</url>
+    <connection>scm:git:http://scm.jbundle.org/scm/git/workspace/jbundle/util/jcalendarbutton</connection>
+    <developerConnection>scm:git:ssh://scm.jbundle.org/scm/git/workspace/jbundle/util/jcalendarbutton</developerConnection>
+  </scm>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  <issueManagement>
+  	<system>Tracker</system>
+  	<url>https://sourceforge.net/tracker/?group_id=239200</url>
+  </issueManagement>
+
+  <properties>
+    <jbundle.package>org.jbundle.jcalendarbutton</jbundle.package>
+    <jbundle.package.export>
+      ${jbundle.package.filter};version=${project.version},
+      org.sourceforge.jcalendarbutton.*;version=${project.version},
+      net.sourceforge.jcalendarbutton.*;version=${project.version},
+    </jbundle.package.export>	<!-- Bundle package to export -->
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>${maven-site-pluginVersion}</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <distributionManagement>
+    <site>
+      <id>jbundle.org</id>
+      <url>scp://www.jbundle.org://space/web/jbundle/jcalendarbutton</url>
+    </site>
+  </distributionManagement>
+
+</project>
