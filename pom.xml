@@ -32,12 +32,12 @@
   </issueManagement>
 
   <properties>
-    <jbundle.package>org.jbundle.jcalendarbutton</jbundle.package>
-    <jbundle.package.export>
-      ${jbundle.package.filter};version=${project.version},
+    <jbundlePackage>org.jbundle.jcalendarbutton</jbundlePackage>
+    <jbundlePackageExport>
+      ${jbundlePackageFilter};version=${project.version},
       org.sourceforge.jcalendarbutton.*;version=${project.version},
       net.sourceforge.jcalendarbutton.*;version=${project.version},
-    </jbundle.package.export>	<!-- Bundle package to export -->
+    </jbundlePackageExport>	<!-- Bundle package to export -->
     <jbundleScmPath>util/jcalendarbutton</jbundleScmPath>
   </properties>
 
