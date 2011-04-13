@@ -31,7 +31,6 @@
   </issueManagement>
 
   <properties>
-    <jbundlePackage>org.jbundle.jcalendarbutton</jbundlePackage>
     <jbundlePackageExport>
       ${jbundlePackageFilter};version=${project.version},
       org.sourceforge.jcalendarbutton.*;version=${project.version},
