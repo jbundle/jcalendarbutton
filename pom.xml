@@ -14,7 +14,7 @@
 
   <packaging>bundle</packaging>
 
-  <name>JCalendarButton - Date and Time Popup Buttons</name>
+  <name>jbundle-util-jcalendarbutton - Date and Time Popup Buttons</name>
   <description>JCalendarButton is a simple java swing component that displays a popup calendar next to a date input field.</description>
 
   <dependencies>
