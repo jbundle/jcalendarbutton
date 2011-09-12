@@ -1,10 +1,11 @@
-/**
+/*
  * JTimePopup.java
  *
  * @author Don Corley <don@tourgeek.com>
  * @version 1.0.0
- */
  
+ * Copyright © 2011 jbundle.org. All rights reserved.
+ */
 package org.jbundle.util.jcalendarbutton;
 
 import java.awt.BorderLayout;

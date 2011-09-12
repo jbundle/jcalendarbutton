@@ -1,14 +1,13 @@
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
- */
 
-/*
  * NewJFrame.java
  *
  * Created on Jan 15, 2009, 1:47:11 PM
- */
 
+ * Copyright © 2011 jbundle.org. All rights reserved.
+ */
 package testcalendarbutton;
 
 import java.text.DateFormat;
