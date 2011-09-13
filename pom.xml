@@ -10,7 +10,7 @@
 
   <groupId>org.jbundle.util.jcalendarbutton</groupId>
   <artifactId>org.jbundle.util.jcalendarbutton</artifactId>
-  <version>1.6.0-SNAPSHOT</version>
+  <version>1.5.4-SNAPSHOT</version>
 
   <packaging>bundle</packaging>
 
@@ -45,8 +45,7 @@
     <jbundleScmPath>util/jcalendarbutton</jbundleScmPath>
   </properties>
 
-  <!-- Maven release bombs - need to do this manually -->
-  <!-- build>
+  <build>
     <plugins>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
@@ -59,6 +58,6 @@
       <id>jbundle.org</id>
       <url>scp://www.jbundle.org://space/web/jbundle/jcalendarbutton</url>
     </site>
-  </distributionManagement -->
+  </distributionManagement>
 
 </project>
