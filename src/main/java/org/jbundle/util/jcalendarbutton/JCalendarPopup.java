@@ -271,7 +271,7 @@ public class JCalendarPopup extends JPanel
         monthLabel = new JLabel();
         monthLabel.setName("monthLabel");
         try   {
-            Icon icon  = new ImageIcon(cl.getResource("images/buttons/" + "Back" + ".gif"));
+            Icon icon  = new ImageIcon(cl.getResource("org/jbundle/util/jcalendarbutton/images/buttons/" + "Back" + ".gif"));
             previousMonthButton.setIcon(icon);
         } catch (Exception ex)  {
             previousMonthButton.setText("<");
@@ -293,7 +293,7 @@ public class JCalendarPopup extends JPanel
         nextMonthButton.setName("nextMonthButton");
         nextMonthButton.setAlignmentX (1.0F);
         try   {
-            Icon icon  = new ImageIcon(cl.getResource("images/buttons/" + "Forward" + ".gif"));
+            Icon icon  = new ImageIcon(cl.getResource("org/jbundle/util/jcalendarbutton/images/buttons/" + "Forward" + ".gif"));
             nextMonthButton.setIcon(icon);
         } catch (Exception ex)  {
             nextMonthButton.setText(">");
@@ -317,7 +317,7 @@ public class JCalendarPopup extends JPanel
         yearLabel = new JLabel();
         yearLabel.setName("yearLabel");
         try   {
-            Icon icon  = new ImageIcon(cl.getResource("images/buttons/" + "Back" + ".gif"));
+            Icon icon  = new ImageIcon(cl.getResource("org/jbundle/util/jcalendarbutton/images/buttons/" + "Back" + ".gif"));
             previousYearButton.setIcon(icon);
         } catch (Exception ex)  {
             previousYearButton.setText("<");
@@ -340,7 +340,7 @@ public class JCalendarPopup extends JPanel
         nextYearButton.setName("nextYearButton");
         nextYearButton.setAlignmentX (1.0F);
         try   {
-            Icon icon  = new ImageIcon(cl.getResource("images/buttons/" + "Forward" + ".gif"));
+            Icon icon  = new ImageIcon(cl.getResource("org/jbundle/util/jcalendarbutton/images/buttons/" + "Forward" + ".gif"));
             nextYearButton.setIcon(icon);
         } catch (Exception ex)  {
             nextYearButton.setText(">");

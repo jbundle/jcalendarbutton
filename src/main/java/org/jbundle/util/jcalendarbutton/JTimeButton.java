@@ -68,7 +68,7 @@ public class JTimeButton extends JButton
         ClassLoader cl = this.getClass().getClassLoader();
         // Create icons
         try   {
-            Icon icon  = new ImageIcon(cl.getResource("images/buttons/" + JTimePopup.TIME_ICON + ".gif"));
+            Icon icon  = new ImageIcon(cl.getResource("org/jbundle/util/jcalendarbutton/images/buttons/" + JTimePopup.TIME_ICON + ".gif"));
             this.setIcon(icon);
         } catch (Exception ex)  {
             this.setText("change");
