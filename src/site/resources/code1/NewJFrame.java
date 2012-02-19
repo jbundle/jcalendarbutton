@@ -6,7 +6,7 @@
  *
  * Created on Jan 15, 2009, 1:47:11 PM
 
- * Copyright © 2011 jbundle.org. All rights reserved.
+ * Copyright © 2012 jbundle.org. All rights reserved.
  */
 package testcalendarbutton;
 

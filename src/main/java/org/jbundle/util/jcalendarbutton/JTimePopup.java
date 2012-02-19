@@ -4,7 +4,7 @@
  * @author Don Corley <don@tourgeek.com>
  * @version 1.0.0
  
- * Copyright © 2011 jbundle.org. All rights reserved.
+ * Copyright © 2012 jbundle.org. All rights reserved.
  */
 package org.jbundle.util.jcalendarbutton;
 
@@ -29,7 +29,7 @@ import javax.swing.event.ListSelectionListener;
  * A JTimePopup is a popup calendar the user can click on to change a date.
  * @author  Don Corley <don@tourgeek.com>
  * @version 1.4.3
- *  Copyright (C) 2010  Don Corley
+ *  Copyright © 2012  Don Corley
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
