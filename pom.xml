@@ -42,7 +42,7 @@
       org.sourceforge.jcalendarbutton.*;version=${project.version},
       net.sourceforge.jcalendarbutton.*;version=${project.version},
     </jbundlePackageExport>	<!-- Bundle package to export -->
-    <jbundleScmPath>util/jcalendarbutton</jbundleScmPath>
+    <projectName>jbundle-util-jcalendarbutton</projectName>
   </properties>
 
   <build>
