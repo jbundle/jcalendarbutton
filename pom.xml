@@ -56,7 +56,7 @@
   <distributionManagement>
     <site>
       <id>jbundle.org</id>
-      <url>scp://www.jbundle.org://space/web/jbundle/jcalendarbutton</url>
+      <url>${documentationURL}/jbundle/jcalendarbutton</url>
     </site>
   </distributionManagement>
 
