@@ -53,12 +53,12 @@
     </plugins>
   </build>
 
-  <distributionManagement>
+  <!-- distributionManagement>
     <site>
       <id>jbundle.org</id>
       <url>${documentationURL}/jbundle/jcalendarbutton</url>
     </site>
-  </distributionManagement>
+  </distributionManagement -->
 
   <repositories>
     <repository>
