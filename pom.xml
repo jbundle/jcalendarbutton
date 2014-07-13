@@ -47,9 +47,9 @@
 
   <build>
     <plugins>
-      <plugin>
+      <!-- plugin>
         <artifactId>maven-site-plugin</artifactId>
-      </plugin>
+      </plugin -->
     </plugins>
   </build>
 
