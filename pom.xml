@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jbundle.config</groupId>
     <artifactId>jbundle-parent</artifactId>
-    <version>1.3.8</version>
+    <version>1.3.9-SNAPSHOT</version>
     <relativePath>../../jbundle-parent</relativePath>
   </parent>
 
@@ -19,8 +19,8 @@
 
   <scm>
     <url>https://github.com/jbundle/jcalendarbutton</url>
-    <connection>scm:git:git://github.com/jbundle/jcalendarbutton.git</connection>
-    <developerConnection>scm:git:git@github.com:jbundle/jcalendarbutton.git</developerConnection>
+    <connection>scm:git:https://github.com/jbundle/jcalendarbutton</connection>
+    <developerConnection>scm:git:https://github.com/jbundle/jcalendarbutton</developerConnection>
   </scm>
 
   <dependencies>
