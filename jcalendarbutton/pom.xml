@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.jbundle.util.jcalendarbutton</groupId>
+    <artifactId>jbundle-util-jcalendarbutton-reactor</artifactId>
+    <version>1.6.5-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>org.jbundle.util.jcalendarbutton</artifactId>
+
+  <packaging>bundle</packaging>
+
+  <name>jbundle-util-jcalendarbutton - Date and Time Popup Buttons</name>
+  <description>JCalendarButton is a simple java swing component that displays a popup calendar next to a date input field.</description>
+
+  <properties>
+    <jbundle-package-export>
+      ${jbundle-package-filter};version=${project.version},
+      org.sourceforge.jcalendarbutton.*;version=${project.version},
+      net.sourceforge.jcalendarbutton.*;version=${project.version},
+    </jbundle-package-export>	<!-- Bundle package to export -->
+  </properties>
+
+  <build>
+    <plugins>
+      <!-- plugin>
+        <artifactId>maven-site-plugin</artifactId>
+      </plugin -->
+    </plugins>
+  </build>
+
+  <!-- distributionManagement>
+    <site>
+      <id>jbundle.org</id>
+      <url>${documentationURL}/jbundle/jcalendarbutton</url>
+    </site>
+  </distributionManagement -->
+
+</project>
