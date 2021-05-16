@@ -12,7 +12,7 @@
 
     <groupId>org.jbundle.util.jcalendarbutton</groupId>
     <artifactId>jbundle-util-jcalendarbutton-reactor</artifactId>
-    <version>1.6.7</version>
+    <version>1.6.8-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>jbundle-util-jcalendarbutton-root - project</name>
@@ -25,7 +25,7 @@
         <url>https://github.com/jbundle/jcalendarbutton</url>
         <connection>scm:git:https://github.com/jbundle/jcalendarbutton</connection>
         <developerConnection>scm:git:https://github.com/jbundle/jcalendarbutton</developerConnection>
-      <tag>jbundle-util-jcalendarbutton-reactor-1.6.7-2</tag>
+      <tag>jbundle-util-jcalendarbutton-reactor-1.6.7</tag>
   </scm>
 
     <issueManagement>
