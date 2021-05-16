@@ -452,7 +452,6 @@ public class JCalendarPopup extends JPanel
         int iOffset = iFirstDayOfWeek - iTargetDayOfWeek;
         if (iOffset > 0)
             iOffset = iOffset - 7;
-        System.out.println("target: " + iTargetDayOfWeek + ", first: " + iFirstDayOfWeek + " offset: " + iOffset);
         calendar.add(Calendar.DATE, iOffset);
 
         calendar.set(Calendar.HOUR_OF_DAY, 0);
