@@ -12,7 +12,7 @@
 
     <groupId>org.jbundle.util.jcalendarbutton</groupId>
     <artifactId>jbundle-util-jcalendarbutton-reactor</artifactId>
-    <version>1.6.9-SNAPSHOT</version>
+    <version>1.6.8-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>jbundle-util-jcalendarbutton-root - project</name>
