@@ -1,7 +1,7 @@
 /*
  * JTimePopup.java
  *
- * @author Don Corley <don@tourgeek.com>
+ * @author Don Corley don@tourgeek.com
  * @version 1.0.0
  
  * Copyright © 2012 jbundle.org. All rights reserved.
@@ -27,7 +27,7 @@ import javax.swing.event.ListSelectionListener;
 
 /** 
  * A JTimePopup is a popup calendar the user can click on to change a date.
- * @author  Don Corley <don@tourgeek.com>
+ * @author  Don Corley don@tourgeek.com
  * @version 1.4.3
  *  Copyright © 2012  Don Corley
  *
@@ -42,7 +42,7 @@ import javax.swing.event.ListSelectionListener;
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see http://www.gnu.org/licenses/.
  */
 public class JTimePopup extends JList
         implements ListSelectionListener
@@ -114,7 +114,7 @@ public class JTimePopup extends JList
     /**
      * Creates new form TimePopup.
      * @param strDateParam The name of the date property (defaults to "date").
-     * @param date The initial date for this button.
+     * @param timeTarget The initial date for this button.
      * @param strLanguage The language to use.
      */
     public void init(String strDateParam, Date timeTarget, String strLanguage)
@@ -143,7 +143,7 @@ public class JTimePopup extends JList
     }
     /**
      * Add all the components to this calendar panel.
-     * @param dateTarget This date needs to be in the calendar.
+     * @param timeTarget This date needs to be in the calendar.
      */
     public void layoutCalendar(Date timeTarget)
     {

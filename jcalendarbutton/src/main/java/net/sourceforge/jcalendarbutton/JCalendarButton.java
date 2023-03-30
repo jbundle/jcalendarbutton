@@ -1,7 +1,7 @@
 /*
  * CalendarButton.java
  *
- * @author Don Corley <don@tourgeek.com>
+ * @author Don Corley don@tourgeek.com
  * @version 1.0.0
  
  * Copyright © 2012 jbundle.org. All rights reserved.

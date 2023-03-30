@@ -1,7 +1,7 @@
 /*
  * TimeButton.java
 
- * @author Don Corley <don@tourgeek.com>
+ * @author Don Corley don@tourgeek.com
  * @version 1.0.0
   
  * Copyright © 2012 jbundle.org. All rights reserved.
@@ -28,7 +28,7 @@ public class JTimeButton extends org.jbundle.util.jcalendarbutton.JTimeButton
     }
     /**
      * Creates new TimeButton.
-     * @param dateTarget The initial date for this button.
+     * @param timeTarget The initial date for this button.
      */
     public JTimeButton(Date timeTarget)
     {
@@ -37,7 +37,7 @@ public class JTimeButton extends org.jbundle.util.jcalendarbutton.JTimeButton
     /**
      * Creates new TimeButton.
      * @param strDateParam The name of the date property (defaults to 'date').
-     * @param dateTarget The initial date for this button.
+     * @param timeTarget The initial date for this button.
      */
     public JTimeButton(String strDateParam, Date timeTarget)
     {
@@ -46,7 +46,7 @@ public class JTimeButton extends org.jbundle.util.jcalendarbutton.JTimeButton
     /**
      * Creates new TimeButton.
      * @param strDateParam The name of the date property (defaults to 'date').
-     * @param dateTarget The initial date for this button.
+     * @param timeTarget The initial date for this button.
      * @param strLanguage The language to use.
      */
     public JTimeButton(String strDateParam, Date timeTarget, String strLanguage)

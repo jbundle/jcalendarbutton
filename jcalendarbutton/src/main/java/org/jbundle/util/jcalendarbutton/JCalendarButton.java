@@ -1,7 +1,7 @@
 /*
  * CalendarButton.java
  *
- * @author Don Corley <don@tourgeek.com>
+ * @author Don Corley don@tourgeek.com
  * @version 1.0.0
  
  * Copyright © 2012 jbundle.org. All rights reserved.
@@ -19,7 +19,7 @@ import javax.swing.JButton;
 
 /** 
  * A JCalendarButton is a button that displays a popup calendar (A JCalendarPopup).
- * @author  Don Corley <don@tourgeek.com>
+ * @author  Don Corley don@tourgeek.com
  * @version 1.4.3
  *  Copyright © 2012  Don Corley
  *
@@ -34,7 +34,7 @@ import javax.swing.JButton;
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see http://www.gnu.org/licenses/.
  */
 public class JCalendarButton extends JButton
     implements PropertyChangeListener, ActionListener

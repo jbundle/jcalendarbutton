@@ -1,7 +1,7 @@
 /*
  * TimeButton.java
 
- * @author Don Corley <don@tourgeek.com>
+ * @author Don Corley don@tourgeek.com
  * @version 1.0.0
   
  * Copyright © 2012 jbundle.org. All rights reserved.
@@ -19,7 +19,7 @@ import javax.swing.JButton;
 
 /** 
  * A JTimeButton is a button that displays a popup time (A JTimePopup).
- * @author  Don Corley <don@tourgeek.com>
+ * @author  Don Corley don@tourgeek.com
  * @version 1.4.3
  *  Copyright © 2012  Don Corley
  *
@@ -34,7 +34,7 @@ import javax.swing.JButton;
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see http://www.gnu.org/licenses/.
  */
 public class JTimeButton extends JButton
     implements PropertyChangeListener, ActionListener
@@ -81,7 +81,7 @@ public class JTimeButton extends JButton
     }
     /**
      * Creates new TimeButton.
-     * @param dateTarget The initial date for this button.
+     * @param timeTarget The initial date for this button.
      */
     public JTimeButton(Date timeTarget)
     {
@@ -91,7 +91,7 @@ public class JTimeButton extends JButton
     /**
      * Creates new TimeButton.
      * @param strDateParam The name of the date property (defaults to 'date').
-     * @param dateTarget The initial date for this button.
+     * @param timeTarget The initial date for this button.
      */
     public JTimeButton(String strDateParam, Date timeTarget)
     {
@@ -101,7 +101,7 @@ public class JTimeButton extends JButton
     /**
      * Creates new TimeButton.
      * @param strDateParam The name of the date property (defaults to 'date').
-     * @param dateTarget The initial date for this button.
+     * @param timeTarget The initial date for this button.
      * @param strLanguage The language to use.
      */
     public JTimeButton(String strDateParam, Date timeTarget, String strLanguage)
@@ -111,8 +111,8 @@ public class JTimeButton extends JButton
     }
     /**
      * Creates new TimeButton.
-     * @param strDateParam The name of the date property (defaults to 'date').
-     * @param dateTarget The initial date for this button.
+     * @param param The name of the date property (defaults to 'date').
+     * @param time The initial date for this button.
      * @param language The language to use.
      */
     public void init(String param, Date time, String language)

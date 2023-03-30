@@ -2,7 +2,7 @@
  * CalendarPopup.java
  *
  * Created on March 5, 2000, 5:07 AM
- * @author Don Corley <don@tourgeek.com>
+ * @author Don Corley don@tourgeek.com
  * @version 1.0.0
  
  * Copyright © 2012 jbundle.org. All rights reserved.
@@ -29,7 +29,7 @@ import javax.swing.border.*;
 
 /** 
  * A JCalendarPopup is a popup calendar the user can click on to change a date.
- * @author  Don Corley <don@tourgeek.com>
+ * @author  Don Corley don@tourgeek.com
  * @version 1.4.3
  *  Copyright © 2012  Don Corley
  *
@@ -44,7 +44,7 @@ import javax.swing.border.*;
  *  GNU General Public License for more details.
  *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program.  If not, see http://www.gnu.org/licenses/.
  */
 public class JCalendarPopup extends JPanel
     implements MouseListener
@@ -144,7 +144,7 @@ public class JCalendarPopup extends JPanel
     /**
      * Creates new form CalendarPopup.
      * @param strDateParam The name of the date property (defaults to "date").
-     * @param date The initial date for this button.
+     * @param dateTarget The initial date for this button.
      * @param strLanguage The language to use.
      */
     public void init(String strDateParam, Date dateTarget, String strLanguage)
